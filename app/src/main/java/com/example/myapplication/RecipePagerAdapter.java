@@ -96,6 +96,13 @@ public class RecipePagerAdapter extends PagerAdapter {
         container.removeView((View) object);
     }
 
-
-
+    public String[] getRecipeNames(int cuisineIndex) {
+        return recipeNames[cuisineIndex]; // Return recipe names for the current cuisine
+    }
 }
+
+//    public String[] getRecipeNames(int cuisineIndex) {
+//        return recipeNames[cuisineIndex]; // Return recipe names for the current cuisine
+//    }
+//}
+

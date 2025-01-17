@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.main, fragment);
         transaction.addToBackStack(null);
         transaction.commit();
+        finish();
     }
 
 }
