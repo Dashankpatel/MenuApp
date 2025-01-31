@@ -30,7 +30,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".Recipelistfragment">>
+    tools:context=".Recipelistfragment">
 
 <com.google.android.material.tabs.TabLayout
     android:id="@+id/tb"
